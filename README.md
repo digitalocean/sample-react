@@ -1,68 +1,63 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Getting Started #
 
-In the project directory, you can run:
+These steps will get this sample application running for you using DigitalOcean.
 
-### `yarn start`
+**Note: Following these steps will result in charges for the use of DigitalOcean Droplets**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Requirements
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* Docker must be [installed locally](https://docs.docker.com/install/) on your machine, unless you choose to build remotely via Github Actions (beyond the scope of this README)
+* You need a DigitalOcean account. If you don't already have one, you can sign up at https://cloud.digitalocean.com/registrations/new
+    
 
-### `yarn test`
+## Installing App Sail ##
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install the App Sail CLI, visit https://cloud.digitalocean.com/appsail and choose to Create or Launch a new app. Follow the on-screen instructions for installing the CLI.
 
-### `yarn build`
+## Downloading the Sample App Source Code
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To download the demo app run in your terminal:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+	git clone https://github.com/digitalocean-appsail/sample-react.git
+	cd sample-react
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploying the App ##
 
-### `yarn eject`
+	sail push
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It will ask for an auth key if you haven't used the sail CLI before. Retrieve it from [the auth page](https://cloud.digitalocean.com/appsail/auth).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then it will ask how to configure the app.
+Answer the questions as follows:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+        ✓ Is this app already live (on App Sail)?: No
+        ✓ Name this app : sample-react
+        ✓ Need to set any env variables: No
+        Let's configure your app for deployment:
+        ✓ Choose your configuration preference: Automatic...
+        ✓ Node app detected, is this correct: Yes
+        ✓ Use Node 10: Yes
+        ✓ Do you need a database: No
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+After that, it will go through a deploy process. Once it's done, you can open the live app or administration dashboard by following the links provided by the App Sail CLI once the push is completed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Learn More ##
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can learn more about App Sail and how to manage and update your application at https://www.digitalocean.com/docs/appsail/.
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Deleting the App #
 
-### Analyzing the Bundle Size
+When you no longer need this sample application running live, you can delete it by following these steps:
+1. Visit the app dashboard at https://cloud.digitalocean.com/appsail
+1. Navigate to the sample-react app
+1. Choose "App Config"->"Show More"
+1. Select "Delete", type your app's name, and click "Delete App".
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This will delete the app and destroy any underlying DigitalOcean Droplets. 
 
-### Making a Progressive Web App
+**Note: If you don't delete your app, charges for the use of DigitalOcean Droplets will continue to accrue. Also, even if you delete your app, a new push to your sample-nodejs repo on Github will trigger a new deploy which will result in DigitalOcean charges.**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
