@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node sammy.js; serve -s _static -l tcp://0.0.0.0:$PORT -n",
-    "build": "node sammy.js; react-scripts build && mv build _static",
+    "build": "rm -r _static 2>/dev/null; node sammy.js; react-scripts build && mv build _static",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
