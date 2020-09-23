@@ -1,0 +1,9 @@
+name: sample-react
+services:
+- build_command: yarn build
+  environment_slug: node-js
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/sample-react
+  name: sample-react
