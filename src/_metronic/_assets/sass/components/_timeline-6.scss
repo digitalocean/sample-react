@@ -1,0 +1,72 @@
+//
+// Timeline 6
+//
+
+// Variables
+$timeline-6-label-width: 50px;
+$timeline-6-bar-width: 40px;
+$timeline-6-badge-size: 13px;
+$timeline-6-bar-border-width: 4px;
+
+.timeline.timeline-6 {
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: 50.5px;
+		width: $timeline-6-bar-border-width;
+		top: 0;
+		bottom: 0;
+		background-color: $gray-200;
+	}
+
+	.timeline-item {
+		display: flex;
+        align-items: center;
+		position: relative;
+		margin-bottom: 1.7rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+		.timeline-label {
+            width: $timeline-6-label-width;
+            flex-shrink: 0;
+			font-size: 1rem;
+			font-weight: 500;
+            position: relative;
+			color: $dark-75;
+		}
+
+		.timeline-badge {
+            flex-shrink: 0;
+            background: white;
+            width: $timeline-6-badge-size;
+            height: $timeline-6-badge-size;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			z-index: 1;
+			position: relative;
+			margin-top: 1px;
+			margin-left: -0.5rem;
+			padding: 3px !important;
+			border: 6px solid #fff !important;
+
+            span {
+                display: block;
+                border-radius: 100%;
+                width: 6px;
+                height: 6px;
+                background-color: $gray-200;
+            }
+		}
+
+        .timeline-content {
+            flex-grow: 1;
+        }
+	}
+}

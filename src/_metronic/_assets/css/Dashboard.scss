@@ -1,0 +1,566 @@
+h3.dash-time-title, h3.dash-time-title2 {
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    z-index: 9;
+    width: 100% !important;
+    line-height: 23px;
+}
+h3.dash-time-title2 span {
+    text-decoration: none !important;
+    font-size: 14px;
+    float: right;
+    margin-right: 120px;
+}
+h3.dash-time-title2 {
+    left:30px;
+}
+h3.dash-time-title2 span:hover {
+    color: #333 !important;
+    text-decoration: underline !important;
+}
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    display: none !important;
+}
+.dashCount .card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.dashCount .card-body .count {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+}
+.dashCount .card-body .dashDuration {
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    font-weight: 700;
+    color: #666;
+}
+.dashCount .card-body .dashDuration span {
+    display: block;
+    font-size: 25px;
+    margin-top: -12px;
+    color: #ddd;
+}
+.hour .dashDuration {
+    color: #3699ff !important;
+}
+.hour .dashDuration span {
+    color: #3699ff50 !important;
+}
+.day .dashDuration {
+    color:#1bc5bd !important;
+}
+.day .dashDuration span {
+    color: #1bc5bd50 !important;
+}
+.week .dashDuration {
+    color: #8950FC !important;
+}
+.week .dashDuration span {
+    color: #8950FC50 !important;
+}
+.dashCount .dashTitle {
+    font-weight: 700;
+    color: #6993ff;
+    font-size: 16px;
+}
+.dashCount .day .dashTitle {
+    color: #1bc5bd;
+}
+.dashCount .week .dashTitle {
+    color: #8950fc;
+}
+.dashCount .hour {
+    border-color:#e1e9ff;
+}
+.dashCount .day {
+    border-color: #c9f7f5;
+}
+.dashCount .week {
+    border-color:#eee5ff;
+}
+img.dashboard_logo_icon {
+    border-radius: 60px;
+}
+.vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #3F4254 !important;
+}
+span.dashboardBullet {
+    width: 100% !important;
+    height: 100% !important;
+    background: #2196f3 !important;
+    border: 0px solid !important;
+    z-index: 999999;
+    position: absolute;
+    border-radius: 50%;
+}
+.vertical-timeline .userBlk img.dashUserImg {
+    min-width: 60px !important;
+    min-height: 60px !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 60px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 0 5px #b5b3b3;
+}
+.modal-body .userBlk .userImg img.dashUserImg {
+    min-width: 70px !important;
+    min-height: 70px !important;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 60px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 5px #b5b3b3;
+}
+.vertical-timeline .userBlk .userImg, .modal-body .userBlk .userImg {
+    display: inline-block;
+    margin-right: 10px;
+}
+.vertical-timeline .userBlk .userName {
+    font-size: 20px;
+    font-weight: 500;
+}
+.vertical-timeline-element-content .userBlk, .modal-body .userBlk {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    padding-right: 10px;
+}
+.vertical-timeline-element .userPost {
+    display: block;
+    margin-top: 15px;
+}
+.userPost .userPostMsg {
+    margin-bottom: 2px;
+}
+.vertical-timeline .userBlk span.msgBlk {
+    padding-top: 13px;
+    width: auto;
+    display: block;
+    font-size: 12px;
+}
+.modal-body .userBlk span.msgBlk {
+    padding-top: 15px;
+    width: auto;
+    display: block;
+    font-size: 12px;
+}
+.vertical-timeline .userBlk span.msgBlk .user-name{
+    font-weight: 600;
+}
+.modal-body .userBlk span.msgBlk .user-name {
+    font-weight: 600;
+    font-size: 16px;
+}
+.vertical-timeline .userBlk span.msgBlk .scanPlace, .modal-body .userBlk span.msgBlk .scanPlace {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.vertical-timeline .userBlk span.msgBlk .scanTime {
+    display: block;
+    color: #888;
+}
+.modal-body .userBlk {
+    margin-bottom: 20px;
+}
+.vertical-timeline-element-content {
+    box-shadow: 0 4px 0 #c0dfff !important;
+}
+.vertical-timeline .vertical-timeline-element:nth-of-type(even) .vertical-timeline-element-content {
+    box-shadow: 0 4px 0 #b7edea !important;
+}
+.vertical-timeline-element--no-children {
+    box-shadow: 0 0px 0 transparent !important;
+}
+.vertical-timeline-element--no-children .vertical-timeline-element-content {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.dashCount .card-body {
+    z-index: 10;
+}
+span.dashboardBullet i {
+    text-align: center;
+    width: 30px;
+    line-height: 29px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.dashCount .card-body.row {
+    padding: 0;
+}
+.dashCount .card-body.row .col-md-6:first-child {
+    padding-top: 32px;
+    text-align: center;
+}
+.card-rounded-bottom .apexcharts-canvas svg {
+    border-bottom-left-radius: 0 !important;
+    //border-bottom-right-radius: 0 !important;
+}
+.dashCount .card i.bg-icon {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    color: #c9f7f550;
+    font-size: 100px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    line-height: 1;
+    z-index: 1;
+}
+.dashCount .engages i.bg-icon {
+    color: #e1e9ff50;
+}
+.dashCount .mensions i.bg-icon {
+    color: #e4dbf650;
+}
+.dash-filter .MuiSelect-outlined {
+    padding: 15px 30px 15px 15px;
+}
+.dash-filter label.MuiInputLabel-outlined {
+    margin-top: -4px !important;
+    opacity: 1;
+}
+.dash-filter label.MuiFormLabel-filled {
+    margin-top: 2px !important;
+    opacity: 0;
+}
+.dashCount .card {
+    border: 1px solid #ccc;
+}
+.vertical-timeline-element:nth-of-type(even) span.dashboardBullet {
+    background: #1bc5bd !important;
+}
+.vertical-timeline-element:last-child i.fa {
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    vertical-align: 30px;
+    background: #8950fc;
+    color: #fff;
+    border-radius: 30px;
+    padding-top: 7px;
+}
+.vertical-timeline-element-icon {
+    width: 30px !important;
+    height: 30px !important;
+}
+.vertical-timeline::before {
+    height: 101%;
+}
+.dash-filter .MuiFormControl-root {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.filter-status {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 45px;
+}
+.dashCount .filter-status, .dashCount .dash-filter {
+    margin-bottom: 15px;
+}
+.topbar .d-flex .symbol-light-success {
+    min-width: 10px !important;
+}
+.symbol.symbol-35 .symbol-label {
+    width: 35px !important;
+    height: 35px;
+    max-width: 35px !important;
+    min-width: 35px !important;
+}
+.dash-filter label.MuiInputLabel-outlined {
+    font-weight: 500;
+}
+.vertical-timeline-element .action-menu {
+    position: absolute;
+    right: 0;
+}
+.MuiPopover-root .MuiPaper-elevation1 {
+    box-shadow: 0 0 2px 0 rgba(82, 63, 105, 0.1) !important;
+}
+button.MuiFab-secondary {
+    min-width: 10px !important;
+}
+.dashPhtoBlk {
+    position: relative;
+    overflow: hidden;
+}
+.dashPhtoBlk button.btn-mail {
+    position: absolute;
+    border-radius: 0 !important;
+    padding: 10px 20px 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: -4px;
+    right: -47px;
+    width: 120px;
+}
+.vertical-timeline-element:nth-of-type(even) .dashPhtoBlk button.btn-mail {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: auto;
+    left: -47px;
+}
+button.btn-mail SVG g path {
+    fill: #fff;
+}
+.emailBlk .emailContent {
+    display: block;
+    margin-bottom: 25px;
+}
+.emailBlk .emailContent span.userName {
+    font-weight: 600;
+}
+span.userLoc {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+span.userLoc i.fa {
+    color: #c9c9c9;
+}
+.modal-content .modal-body .comapnyName {
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 60px;
+}
+.modal-content .modal-body .companyAddr {
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: underline;
+    padding-right: 60px;
+}
+.emailBlk .sendBtn {
+    float: right;
+    margin-top: -45px;
+}
+.emailBlk .sendBtn button {
+    min-width: 10px !important;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.emailBlk .sendBtn .material-icons {
+    line-height: 1.15;
+    margin-left: 4px;
+}
+.dashPhtoBlk img {
+    width: 100%;
+    height: auto;
+}
+.filter-status .fltStatus {
+    border: 1px solid #c4c4c4;
+    background: #fff;
+    border-radius: 4px;
+    padding: 0 15px;
+}
+.vertical-timeline--animate .vertical-timeline-element--no-children .vertical-timeline-element-content {
+    box-shadow: 0px 0px 0px 0px transparent !important;
+}
+.vertical-timeline.vertical-timeline--one-column-right::before {
+    right: 18px;
+    left: unset;
+}
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: white;
+}
+.vertical-timeline--one-column-right .vertical-timeline-element-icon {
+    right: 0;
+    left: unset;
+}
+.vertical-timeline--one-column-right .vertical-timeline-element-content {
+    margin-right: 60px;
+    margin-left: unset;
+}
+.vertical-timeline--one-column-right .vertical-timeline-element-content-arrow {
+    content: '';
+    position: absolute;
+    top: 16px;
+    right: unset;
+    left: 100%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-left: 7px solid white;
+}
+.vertical-timeline--one-column-left .vertical-timeline-element-icon {
+    top: 7px;
+    left: 5px;
+}
+.vertical-timeline--one-column-right .vertical-timeline-element-icon {
+    top: 7px;
+    right: 6px;
+}
+.no-shadow .vertical-timeline-element-content {
+    box-shadow: 0 0px 0 #b7edea !important;
+}
+.vertical-timeline .vertical-timeline-element:nth-of-type(even):last-child .vertical-timeline-element-content,
+.vertical-timeline .vertical-timeline-element:nth-of-type(odd):last-child .vertical-timeline-element-content {
+    box-shadow: 0 0px 0 #b7edea !important;
+}
+.vertical-timeline {
+    height: 100%;
+}
+.emptyBlk {
+    font-weight: 600;
+}
+.empty-el-row .vertical-timeline-element-date {
+    display: none !important;
+}
+@media only screen and (min-width: 1170px)
+{
+    .vertical-timeline {
+        padding: 3.5em 0 !important;
+        margin-top: -15px !important;
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-icon {
+        width: 30px !important;
+        height: 30px !important;
+        left: 50% !important;
+        margin-left: -15px !important;
+        margin-top: 15px !important;
+        font-size: 0 !important;
+        box-shadow: 0 0 0 5px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+        background: #2196f3 !important;
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
+        top: 12px !important;
+    }
+    .vertical-timeline-element {
+        margin:3em 0 !important;
+    }
+}
+@media only screen and (max-width: 1444px)
+{
+    .dashCount .card-body .count {
+        font-size: 40px;
+    } 
+    .dashCount .card-body .dashDuration {
+        font-size: 15px;
+    }
+    .dashCount .card-body .dashDuration span {
+        font-size: 20px;
+        margin-top: -8px;
+    }
+    
+}
+@media (max-width: 1260px) and (min-width:992px) 
+{
+    .dashCount .card-body .count {
+        font-size: 34px;
+        text-align: center;
+    }
+    .dashCount .card-body .dashDuration {
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .dashCount .card-body .dashDuration span {
+        font-size: 18px;
+        margin-top: -6px;
+    }
+    .dashCount .dashTitle {
+        display: block;
+        text-align: center;
+    }
+    .filter-status {
+        font-size: 1.6rem;
+    }
+    h3.dash-time-title, h3.dash-time-title2 {
+        position: absolute;
+        left: 90px;
+        top: 0;
+        font-size: 16px;
+    }
+    h3.dash-time-title2 {
+        left:30px;
+    }
+}
+@media (max-width: 991px) and (min-width:481px) 
+{
+    .dashCount .card-body .count {
+        font-size: 26px;
+    }
+    .dashCount .card-body .dashDuration {
+        font-size: 12px;
+    }
+    .dashCount .card-body .dashDuration span {
+        font-size: 15px;
+        margin-top: -6px;
+    }
+    .filter-status {
+        font-size: 1.6rem;
+    }
+    h3.dash-time-title, h3.dash-time-title2 {
+        top: 0;
+    }
+    h3.dash-time-title2 {
+        left:30px;
+    }
+    
+}
+@media (max-width: 480px)
+{
+    .dashCount .card-body .count {
+        font-size: 36px;
+        text-align: center;
+    }
+    .dashCount .card-body .dashDuration {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .dashCount .card-body .dashDuration span {
+        font-size: 20px;
+        margin-top: -9px;
+    }
+    .dashCount .dashTitle {
+        display: block;
+        text-align: center;
+        float: none;
+    }
+    h3.dash-time-title, h3.dash-time-title2 {
+        top: 0;
+    }
+    h3.dash-time-title2 {
+        left:30px;
+    }
+}
+@media (max-width:1169px) {
+    .vertical-timeline-element-icon {
+        width: 30px !important;
+        height: 30px !important;
+        margin-left: 5px !important;
+        margin-top: 8px !important;
+    }
+}
+@media(max-width:767px){
+    .filter-status {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (max-width: 1169px)
+{
+    .vertical-timeline-element .dashPhtoBlk button.btn-mail {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        right: auto;
+        left: -47px;
+    }
+}
