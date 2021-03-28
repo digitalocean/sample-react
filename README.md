@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/digitalocean/sample-react)
+
 # Getting Started
 
 These steps will get this sample React application running for you using DigitalOcean App Platform.
