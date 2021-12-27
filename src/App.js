@@ -31,7 +31,7 @@ export default function App() {
 
       <div className="grid grid-cols-2 grid-rows-2 gap-4">
         <Button
-          text="DigitalOcean Docs"
+          text="DigitalOcean Docs-test"
           url="https://www.digitalocean.com/docs/app-platform"
         />
         <Button
