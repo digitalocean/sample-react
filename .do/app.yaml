@@ -1,9 +1,9 @@
-name: sample-react
+name: vandalino-family
 services:
 - build_command: yarn build
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-react
-  name: sample-react
+    repo: dsv101/vandalino-family
+  name: vandalino-family

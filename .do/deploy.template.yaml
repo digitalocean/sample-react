@@ -1,9 +1,9 @@
 spec:
-  name: sample-react
+  name: vandalino-family
   services:
   - build_command: yarn build
     environment_slug: node-js
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-react.git
-    name: sample-react
+      repo_clone_url: https://github.com/dsv101/vandalino-family.git
+    name: vandalino-family
