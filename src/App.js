@@ -25,7 +25,7 @@ export default function App() {
       </div>
 
       <h1 className="text-2xl lg:text-5xl mb-10 text-right">
-        Welcome to Your New React App{" "}
+        Hey it's me, React!{" "}
         <span className="block text-lg text-blue-400">on DigitalOcean</span>
       </h1>
 
