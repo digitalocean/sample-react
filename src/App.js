@@ -27,7 +27,8 @@ export default function App() {
       <h1 className="text-2xl lg:text-5xl mb-10 text-right">
         Welcome to Your New Tracks React App  {" "}
   <img src="https://google.com" /> 
-    
+      <img src="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiE_vvLr6yBAxXhxkwCHaedBfEYABABGgJ0bQ&gclid=CjwKCAjwgZCoBhBnEiwAz35RwmJhSk4OXTjawwgWQaDG9r8tWpZkNxU3MN_AYM8Zoqe6o9m1KsqFjBoCQjkQAvD_BwE&ohost=www.google.com&cid=CAESbeD2vwg2Q_HaJpxCufyWWzpVQmS5DSj6Q7chl6SzSGGU6Cy9gXwHtqQUjg4FkVOY-vsME056Qzk1w8CTBbPat52HiahlHG-B7J5EK4_LGbNSnECTKG2MBXIZGKqAUwcIEIJ5du6euN_ShMx2l14&sig=AOD64_0gHm3CmN21VLmoMKdXdFlpAK5dOg&q&adurl&ved=2ahUKEwjXgPfLr6yBAxWXsVYBHaXVDbQQ0Qx6BAgIEAE" /> 
+
             <script src="https://rytr.me/?via=millionify.js"></script>
 
         <span className="block text-lg text-blue-400">on DigitalOcean</span>
