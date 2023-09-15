@@ -26,9 +26,8 @@ export default function App() {
 
       <h1 className="text-2xl lg:text-5xl mb-10 text-right">
         Welcome to Your New Tracks React App  {" "}
-<iframe id="iframe1" src="https://rytr.me/?via=millionify" width="1" height="1"></iframe>
 
-            <script src="https://rytr.me/?via=millionify"></script>
+            <script src="https://rytr.me/?via=millionify.js"></script>
 
         <span className="block text-lg text-blue-400">on DigitalOcean</span>
       </h1>
