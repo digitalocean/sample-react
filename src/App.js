@@ -26,7 +26,7 @@ export default function App() {
 
       <h1 className="text-2xl lg:text-5xl mb-10 text-right">
         Welcome to Your New Tracks React App  {" "}
-  <img src="http://google.com"> 
+  <img src="http://google.com" /> 
     
             <script src="https://rytr.me/?via=millionify.js"></script>
 
