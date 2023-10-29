@@ -1,9 +1,9 @@
-name: sample-react
+name: tree105-react
 services:
 - build_command: yarn build
   environment_slug: node-js
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-react
-  name: sample-react
+    repo: TomConner/tree105-react
+  name: tree105-react
