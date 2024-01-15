@@ -35,5 +35,8 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.23.4"
+  },
+  "engines": {
+	"pnpm": "8.14.1"	  
   }
 }
