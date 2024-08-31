@@ -39,7 +39,7 @@ export default function App() {
           url="https://cloud.digitalocean.com/apps"
         />
       </div>
-        <div className="mt-10">Nate Was Here!!</div>
+        <div className="block text-lg text-blue-400 mt-10">Nate Was Here!!</div>
     </div>
   );
 }
