@@ -1,8 +1,10 @@
-on: [push, pull_request_target]
-name: Test build
+name: Test build by running doctl apps dev build
+on:
+  pull_request:
+    branches: ["*"]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
