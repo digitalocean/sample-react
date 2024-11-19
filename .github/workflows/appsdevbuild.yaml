@@ -1,0 +1,16 @@
+on: [push, pull_request_target]
+name: Test build
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Install doctl
+        uses: digitalocean/action-doctl@v2
+        with:
+          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+
+      - name: Run dev build
+        run: doctl apps dev build --no-cache
