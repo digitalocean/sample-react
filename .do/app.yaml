@@ -2,7 +2,7 @@ name: sample-react
 services:
 - environment_slug: node-js
   github:
-    branch: main
+    branch: #583
     deploy_on_push: true
     repo: digitalocean/sample-react
   name: sample-react
